@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="min-h-screen grid place-items-center bg-gray-700">
+    <main
+      class="w-screen md:p-10 h-screen lg:h-auto flex lg:aspect-video max-w-[1700px]"
+    >
+      <div
+        class="w-24 lg:flex hidden bg-black h-full flex-col justify-between items-center py-10 overflow-hidden"
+      >
+        <div class="icon w-8 aspect-square translate-y-[-260%]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="40"
+            viewBox="0 -960 960 960"
+            fill="white"
+          >
+            <path
+              d="M226-262q59-39.666 121-60.833T480-344q71 0 133.333 21.167Q675.667-301.666 734.667-262q41-49.667 59.833-103.667 18.834-54 18.834-114.333 0-141-96.167-237.167T480-813.334q-141 0-237.167 96.167T146.666-480q0 60.333 19.167 114.333T226-262Zm253.876-184.667q-58.209 0-98.043-39.957Q342-526.581 342-584.791q0-58.209 39.957-98.042 39.958-39.834 98.167-39.834t98.043 39.958Q618-642.752 618-584.543q0 58.21-39.957 98.043-39.958 39.833-98.167 39.833ZM479.73-80q-83.097 0-156.183-31.5t-127.15-85.833q-54.064-54.334-85.23-127.227Q80-397.454 80-480.333q0-82.88 31.5-155.773Q143-709 197.333-763q54.334-54 127.227-85.5Q397.454-880 480.333-880q82.88 0 155.773 31.5Q709-817 763-763t85.5 127Q880-563 880-480.177q0 82.822-31.5 155.666T763-197.333Q709-143 635.914-111.5T479.73-80Z"
+            />
+          </svg>
+        </div>
+        <div class="w-fit space-y-5 overflow-hidden">
+          <div class="icon opacity-0 w-8 aspect-square translate-y-[590%]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              fill="white"
+              viewBox="0 0 48 48"
+            >
+              <path
+                d="M 16.5 5 C 10.159 5 5 10.159 5 16.5 L 5 31.5 C 5 37.841 10.159 43 16.5 43 L 31.5 43 C 37.841 43 43 37.841 43 31.5 L 43 16.5 C 43 10.159 37.841 5 31.5 5 L 16.5 5 z M 34 12 C 35.105 12 36 12.895 36 14 C 36 15.104 35.105 16 34 16 C 32.895 16 32 15.104 32 14 C 32 12.895 32.895 12 34 12 z M 24 14 C 29.514 14 34 18.486 34 24 C 34 29.514 29.514 34 24 34 C 18.486 34 14 29.514 14 24 C 14 18.486 18.486 14 24 14 z M 24 17 A 7 7 0 1 0 24 31 A 7 7 0 1 0 24 17 z"
+              ></path>
+            </svg>
+          </div>
+          <div class="icon opacity-0 w-8 aspect-square translate-y-[430%]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              fill="white"
+              viewBox="0 0 30 30"
+            >
+              <path
+                d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"
+              ></path>
+            </svg>
+          </div>
+          <div class="icon opacity-0 w-8 aspect-square translate-y-[260%]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              fill="white"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+              ></path>
+            </svg>
+          </div>
+          <div class="icon w-8 aspect-square translate-y-[160%]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              fill="white"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- * Main section to work -->
+      <section class="flex-1 relative bg-black overflow-hidden">
+        <div
+          class="text-container opacity-0 md:max-w-[70%] px-5 md:px-0 -bottom-full md:left-12 space-y-8 w-fit h-fit absolute z-10 text-white"
+        >
+          <h1 class="text-5xl font-extrabold tracking-wide">Moon</h1>
+          <p class="tracking-wider">
+            The moon, Earth's lone natural satellite, enchants with its gentle
+            glow in the night sky. Roughly 1/6th the size of our planet, it
+            exerts a gravitational pull that shapes Earth's tides. Its surface
+            displays a dramatic contrast, featuring pockmarked highlands and
+            dark, smooth plains known as maria. The moon has long been a source
+            of human fascination, inspiring scientific exploration and cultural
+            wonder. It remains a symbol of the universe's enigmatic beauty and a
+            testament to the mysteries of space.
+          </p>
+        </div>
+        <div
+          class="text-container opacity-0 md:max-w-[70%] px-5 md:px-0 -bottom-full md:left-12 space-y-8 w-fit h-fit absolute z-10 text-white"
+        >
+          <h1 class="text-5xl font-extrabold tracking-wide">Jupiter</h1>
+          <p class="tracking-wider">
+            Jupiter, the largest planet in our solar system, is a colossal gas
+            giant that reigns as a celestial giant. Its immense size is
+            awe-inspiring, dwarfing all other planets with its vast bulk.
+            Recognizable by its striking bands of colorful clouds and its iconic
+            Great Red Spot, a massive storm system, Jupiter's turbulent
+            atmosphere is a subject of fascination for scientists and amateur
+            astronomers alike. As a gas giant, it lacks a solid surface, making
+            it a unique and captivating world, offering insights into the
+            extreme environments found beyond Earth.
+          </p>
+        </div>
+        <div
+          class="text-container opacity-0 md:max-w-[70%] px-5 md:px-0 -bottom-full md:left-12 space-y-8 w-fit h-fit absolute z-10 text-white"
+        >
+          <h1 class="text-5xl font-extrabold tracking-wide">Mars</h1>
+          <p class="tracking-wider">
+            Mars, often referred to as the "Red Planet," is Earth's neighboring
+            planet and a tantalizing target for exploration. Its rusty hue is
+            due to iron-rich minerals on its surface, which create a distinct
+            Martian landscape. Mars has long intrigued scientists due to its
+            potential for hosting past or present life, and it remains a focal
+            point for future human missions. It features a thin atmosphere, vast
+            canyons like Vales Mariners, and the tallest volcano in the solar
+            system, Olympus Mons. Mars is a captivating celestial neighbor.
+          </p>
+        </div>
+
+        <div class="h-full w-full relative">
+          <div
+            class="img-container opacity-0 w-[0%] h-[50%] overflow-hidden bg-black absolute flex justify-end"
+          >
+            <img src="img/mimage1.jpg" class="h-full object-cover" />
+          </div>
+          <div
+            class="img-container opacity-0 w-[0%] h-[50%] overflow-hidden bg-black absolute flex justify-end"
+          >
+            <img src="img/mimage2.jpg" class="h-full object-cover" />
+          </div>
+          <div
+            class="img-container opacity-0 w-[0%] h-[50%] overflow-hidden bg-black absolute flex justify-end"
+          >
+            <img src="img/mimage3.jpg" class="h-full object-cover" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script defer src="/script/script.js"></script>
+</html>

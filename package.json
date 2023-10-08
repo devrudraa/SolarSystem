@@ -1,0 +1,20 @@
+{
+  "name": "animated-website",
+  "version": "1.0.0",
+  "description": "This is a animated website made in GSAP inspired from https://www.youtube.com/@thesheryianscodingschool",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --ext html index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dev Rudra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
